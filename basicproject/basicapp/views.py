@@ -10,6 +10,10 @@ def home(request):
 def about(request):
     return render(request, 'basicapp/html/about.html')
 
+def contact(request):
+    return render(request, 'basicapp/html/contact.html')
+
+
 # Feedback--
 def feedback(request):
     
